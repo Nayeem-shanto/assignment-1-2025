@@ -36,6 +36,9 @@ flex-shrink: 0;
 .navbar{
 display: flex;
 justify-content: space-between;
+align-items: center;
+
+
 
 }
 .name{
@@ -68,15 +71,15 @@ line-height: 150%; /* 24px */
 .banner-title{
 color: #252432;
 text-align: center;
-font-family: Raleway;
 font-size: 65px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
 height: auto;
+align-self: stretch;
 }
 
 .action{
+    padding-top: 100px;
+    padding-bottom: 100px;
     display: flex;
 width: 1140px;
 justify-content: space-between;
@@ -85,6 +88,7 @@ margin: 0 auto;
 }
 
 .joined-users{
+    padding-bottom: 100px;
     display: flex;
 width: 1140px;
 padding: 50px 80px;
@@ -125,4 +129,48 @@ color: rgba(0, 0, 0, 0.50);
 text-align: center;
 font-size: 20px;
 font-weight: 400;
+}
+.footer li{
+    list-style: none;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer{
+    padding-top: 100px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 8px;
+align-self: stretch;
+border-top: 1px solid rgba(0, 0, 0, 0.10);
+background: #FFF;
+}
+.footer-title{
+    color: var(--Primary-Color, #4E47FF);
+text-align: center;
+font-family: Inter;
+font-size: 100px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.footer-paragraph{
+width: 531px;
+color: #8987A1;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%; /* 24px */
+margin: 0 auto;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: #8987A1;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
 }
