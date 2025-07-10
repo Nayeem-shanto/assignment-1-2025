@@ -85,6 +85,23 @@ width: 1140px;
 justify-content: space-between;
 align-items: center;
 margin: 0 auto;
+gap: 250px;
+}
+.action-title{
+    color: #252432;
+font-family: Raleway;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.action-description{
+    color: rgba(37, 36, 50, 0.50);
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 125% */
 }
 
 .joined-users{
@@ -133,7 +150,7 @@ font-weight: 400;
 .get-in-touch{
     display: flex;
     justify-content: space-around;
-    max-width: 528px;
+    width: 50%;
     gap: 115px;
     align-items: center;
     margin: 0 auto;
@@ -148,8 +165,35 @@ font-style: normal;
 font-weight: 700;
 line-height: 120%; /* 116.4px */
 }
+.user{
+    
+}
+.user-card{
+   border: 1px solid gray;
+   border-radius: 14px;
+   padding: 15px;
+}
+.user-title{
+    color: #252432;
+text-align: center;
+font-family: Raleway;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.focus{
+background: #F5F8FF;
+width: 100%;
+}
+
 .btn-touch{
 
+}
+.placeholder{
+    border-radius: 10px;
+border: 1px solid #D6DDED;
+background: #FFF;
 }
 
 .footer li{
