@@ -1,5 +1,4 @@
 /* google fonts */
-
 .raleway-fonts {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -147,40 +146,7 @@ text-align: center;
 font-size: 20px;
 font-weight: 400;
 }
-.get-in-touch{
-   display: flex;
-width: 1140px;
-padding: 71px 0px;
-justify-content: space-between;
-align-items: center;
 
-}
-.touch-title{
-    color: #000;
-font-family: Raleway;
-font-size: 97px;
-font-style: normal;
-font-weight: 700;
-line-height: 120%; /* 116.4px */
-}
-
-.user{
-    
-}
-.user-card{
-   border: 1px solid gray;
-   border-radius: 14px;
-   padding: 15px;
-}
-.user-title{
-    color: #252432;
-text-align: center;
-font-family: Raleway;
-font-size: 42px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
 .focus{
  background: #F5F8FF;
 display: flex;
@@ -191,6 +157,7 @@ justify-content: center;
 align-items: center;
 gap: 20px;
 border-radius: 14px;
+margin-bottom: 100px;
 }
 .focus-title{
     color: #000;
@@ -220,6 +187,52 @@ font-style: normal;
 font-weight: 500;
 line-height: 150%; /* 24px */
 }
+
+.get-in-touch{
+   display: flex;
+width: 1140px;
+padding: 71px 0px;
+justify-content: space-evenly;
+align-items: center;
+background: #F5F8FF;
+margin: 0 auto;
+
+}
+.touch-title{
+    color: #000;
+font-family: Raleway;
+font-size: 97px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 116.4px */
+}
+.input{
+    border-radius: 10px;
+border: 1px solid #D6DDED;
+background: #FFF;
+}
+.form{
+    
+}
+
+.user{
+    
+}
+.user-card{
+   border: 1px solid gray;
+   border-radius: 14px;
+   padding: 15px;
+}
+.user-title{
+    color: #252432;
+text-align: center;
+font-family: Raleway;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
 
 
 .btn-touch{
